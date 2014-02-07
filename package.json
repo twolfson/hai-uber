@@ -1,0 +1,39 @@
+{
+  "name": "hai-uber",
+  "description": "Hello Uber!!!",
+  "version": "0.1.0",
+  "homepage": "https://github.com/twolfson/hai-uber",
+  "author": {
+    "name": "Todd Wolfson",
+    "email": "todd@twolfson.com",
+    "url": "http://twolfson.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twolfson/hai-uber.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twolfson/hai-uber/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/twolfson/hai-uber/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/hai-uber",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt jshint && mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.11.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-watch": "~0.4.0"
+  },
+  "keywords": []
+}
